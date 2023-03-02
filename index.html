@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -150,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="challenge_1">challenge_1 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="challenge_2">challenge_2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="faostat">faostat <span class="quarto-category-count">(2)</span></div><div class="category" data-category="hotel_bookings">hotel_bookings <span class="quarto-category-count">(1)</span></div><div class="category" data-category="railroads">railroads <span class="quarto-category-count">(2)</span></div><div class="category" data-category="wildbirds">wildbirds <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -178,7 +178,88 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="challenge_2,railroads,faostat,hotel_bookings" data-listing-date-sort="1677646800000" data-listing-file-modified-sort="1677726916176" data-listing-reading-time-sort="1.21">
+<div class="body">
+<a href="./posts/challenge2_ElizabethRosso.html">
+<h3 class="no-anchor listing-title">
+Challenge 2 Elizabeth
+</h3>
+<div class="listing-subtitle">
 
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('challenge_2'); return false;">
+challenge_2
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('railroads'); return false;">
+railroads
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('faostat'); return false;">
+faostat
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('hotel_bookings'); return false;">
+hotel_bookings
+</div>
+</div>
+<a href="./posts/challenge2_ElizabethRosso.html">
+<div class="listing-description">
+<p>Data wrangling: using group() and summarise()</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/challenge2_ElizabethRosso.html">
+<div class="listing-date">
+Mar 1, 2023
+</div>
+<div class="listing-author">
+Elizabeth Rosso
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="challenge_1,railroads,faostat,wildbirds" data-listing-date-sort="1660536000000" data-listing-file-modified-sort="1677726516319" data-listing-reading-time-sort="0.905">
+<div class="body">
+<a href="./posts/challenge1_ElizabethRosso.html">
+<h3 class="no-anchor listing-title">
+Challenge 1 Elizabeth
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('challenge_1'); return false;">
+challenge_1
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('railroads'); return false;">
+railroads
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('faostat'); return false;">
+faostat
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('wildbirds'); return false;">
+wildbirds
+</div>
+</div>
+<a href="./posts/challenge1_ElizabethRosso.html">
+<div class="listing-description">
+<p>Reading in data and creating a post</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/challenge1_ElizabethRosso.html">
+<div class="listing-date">
+Aug 15, 2022
+</div>
+<div class="listing-author">
+Elizabeth Rosso
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
