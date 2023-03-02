@@ -1,0 +1,20 @@
+{
+  "index.qmd": {
+    "index.html": "51379218"
+  },
+  "about.qmd": {
+    "about.html": "e405abf6"
+  },
+  "posts/challenge1_FirstLast.qmd": {
+    "challenge1_FirstLast.html": "4aa6cd65"
+  },
+  "posts/challenge2_FirstLast.qmd": {
+    "challenge2_FirstLast.html": "782f285d"
+  },
+  "posts/challenge2_ElizabethRosso.qmd": {
+    "challenge2_ElizabethRosso.html": "b1966036"
+  },
+  "posts/challenge1_ElizabethRosso.qmd": {
+    "challenge1_ElizabethRosso.html": "9b515826"
+  }
+}
